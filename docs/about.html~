@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About Augur.ai</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/round-about.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Augur.ai</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://ec2-34-207-92-201.compute-1.amazonaws.com:8050/">DashBoard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <br>
+      <br>
+      <!-- Introduction Row -->
+      <h1 class="my-4">About Us
+        <small>Augur.ai!</small>
+      </h1>
+      <p>We use Machine Learning to make the world a better place.</p>
+
+      <!-- Team Members Row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="my-4">Our Team</h2>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAluAAAAJGY1ZGJmODZjLThhZmUtNDRkNS1iNDFkLTJlMjAzMDYyM2RiYg.jpg" alt="Brendon's mug" height="200" width="200">
+          <h3>Brendon Hall
+            <small>Product Manager, Geoscience</small>
+          </h3>
+          <p>Brendon Hall is focused on taking techniques from the computational sciences and using them to solve problems in geology and geophysics. Applications include computer simulations of sediment transport, computational stratigraphy and geomechanics, primarily aimed at improving efficiencies in the exploration and extraction of oil and gas. Dr. Hall received his PhD in 2009 from the University of California, Santa Barbara, under the supervision of Eckart Meiburg.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/01f/2f1/0403bfa.jpg" alt="Ben's mug" height="200" width="200">
+          <h3>Ben Lasscock
+            <small>Physicist and data scientist</small>
+          </h3>
+          <p>I enjoy tackling technical problems, particularly where a "first principles" approach can be used. During my graduate work I began to be involved in high-performance computing, and gained an interest in computer modeling. Having established a strong publication record in physics, I moved into quantitative finance. The challenge I found there was one of building robust algorithms that were agile enough to exploit opportunities in the markets. During that time I developed an interest in Bayesian computation and co-authored several papers on a Bayesian analysis of co-integrated VAR models. This interest in working with Bayesian statistics, computer modeling and physics has lead me to geo-physics where I think there is opportunity to do important work.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1eb/38e/19b0fa8.jpg" alt="Altay's mug" height="200" width="200">
+          <h3>Altay Sansal
+            <small>Manager of Integrated Reservoir Geosciences</small>
+          </h3>
+          <p>I am Quantitative Interpretation (QI) specialist with 4 years of E&P experience. As a result of successful projects I completed with upstream clients, I gained extensive knowledge and experience on deterministic and stochastic model based AVO(Z)/AVA(Z) inversion methods and their applications on PSTM or PSDM data. I also collaborate with research and development teams in producing state-of-the art technologies that will provide quantitative data to have a better understanding of the reservoir, and ultimately reduce commercial risk and uncertainty in drilling.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/02c/26b/15c88bd.jpg" alt="Colin's mug" height="200" width="200">
+          <h3>Colin Sturm
+            <small>Production Engineer</small>
+          </h3>
+          <p>Colin received his Ph.D. in chemical engineering in 2007. He developed downstream process simulations for optimization of three phase fluid flow. He then moved on to CFD and FEM to simulate fluid mixing in static mixers. His current role is optimizing completion and production at an exploration and prodcution company.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAm9AAAAJDNhMjRmZDRkLTFjYzktNDI4Ny1hZTM1LTRkNDI3NGZlYmI1NA.jpg" alt="Yan's mug" height="200" width="200">
+          <h3>Yan Zaretskiy
+            <small>Computational Scientist</small>
+          </h3>
+          <p>I am an computational scientist with the strong background in physics based modeling of geoscience related
+problems. On top of it, I have a keen interest in statistical inference for data-driven analytics.</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Augur.ai 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
