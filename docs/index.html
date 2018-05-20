@@ -68,27 +68,36 @@
       </div>
     </header>
 
-    <section class="content-section-b">
+
+    <section class="content-section-a">
 
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-5 mr-auto order-lg-2">
+          <div class="col-lg-5 ml-auto">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Data Wrangling</h2>
-            <p class="lead"> All the ways we can load this data and mess around with it.</p>
+            <h2 class="section-heading">Poseidon: Extracting and cleaning core images</h2>
+            <p class="lead">
+	      The Poseidon dataset includes a large number of high-resolution core photographs,
+	      primarily stored in PDF format. As is, this data is not ready for application to
+	      machine learning. Geohacker makes the core-photos accessible to Python. We then
+	      demonstrate a deep-learning workflow for feature extraction using semantic segmentation.
+	      The example identifies the location of core-plugs in the data. This then enables
+	      the location of thin-section images in the data, for further analysis.
+	    </p>
           </div>
-          <div class="col-lg-5 ml-auto order-lg-1">
-            <img class="img-fluid" src="img/Pos_ebcdic.png" alt="">
+          <div class="col-lg-5 mr-auto ">
+            <img class="img-fluid" src="img/CoreLib.png" alt="">
           </div>
         </div>
-
+	
       </div>
       <!-- /.container -->
 
     </section>
-    <!-- /.content-section-b -->
+    <!-- /.content-section-a -->
+    
 
     <section class="content-section-b">
 
@@ -98,12 +107,21 @@
           <div class="col-lg-5 mr-auto order-lg-2">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Tutorials</h2>
-            <p class="lead"> Sometimes it's just easy when you know how.
+            <h2 class="section-heading">Poseidon: Seismic data, wells and model building</h2>
+            <p class="lead"> Datasets include well-logs, multi-stack seismic, VSP, processing reports,and pdf.
+            <p class="lead"> Seismic, VSP, and well-log data are
+	                     better together! GeoHacker Jupyter  notebooks
+	                     interrogate the various meta-data to demonstrate how to co-locate
+	                     Poseidon Pharos-1 well-data with seismic lines.
+            <p class="lead"> Some basic deterministic sparse spike and AVO inversions are demonstrated.
+	    <p class="lead"> The data is then prepared for unsupervised learning using features extracted by a
+	                     deep learning CNN.
           </div>
           <div class="col-lg-5 ml-auto order-lg-1">
-            <img class="img-fluid" src="img/Seismic.jpg" alt="">
-	    <img class="img-fluid" src="img/Inversion.jpg" alt="">
+            <img class="img-fluid" src="img/Seismic.png" alt="">
+	    <img class="img-fluid" src="img/inversion.png" alt="">
+	    <img class="img-fluid" src="img/Feature77.png" alt="">
+	    <img class="img-fluid" src="img/Feature100.png" alt="">
           </div>
         </div>
 
@@ -113,29 +131,34 @@
     </section>
 
     
-    <section class="content-section-a">
+    <section class="content-section-b">
 
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-5 ml-auto">
+          <div class="col-lg-5 mr-auto order-lg-2">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Unstructured Datasets</h2>
-            <p class="lead">
-	      Not all data is standardized, what about pdf's and powerpoint presentations?
-	    </p>
+            <h2 class="section-heading">UK-OGA: Open Well Dataset</h2>
+            <p class="lead"> The Oil and Gas Authority of the UK has made a collection of
+	      well-log data and interpreted tops available for download.  GeoHacker provides
+	      a Jupyter notebook for profiling and visualizing this data. The GeoHacker well-analysis
+	      tool automatically profiles this dataset and determines if there is a minimally viable
+	      selection of curves, and which data has been cleaned for application to machine learning.
+	      Our Geohacker exploration scientists also provide a brief tutorial on standard well log
+	      analysis for those data scientist that are new to geology and geophysics.	       
           </div>
-          <div class="col-lg-5 mr-auto ">
-            <img class="img-fluid" src="img/PoseidonCore.jpg" alt="">
+          <div class="col-lg-5 ml-auto order-lg-1">
+            <img class="img-fluid" src="img/OutlierFilter.png" alt="">
+	    <img class="img-fluid" src="img/NeutronLog.png" alt="">
           </div>
         </div>
-	
+
       </div>
       <!-- /.container -->
 
     </section>
-    <!-- /.content-section-a -->
+    
 
 
     <aside class="banner">
